@@ -1,0 +1,432 @@
+/*=================header css==================*/
+header {
+    border-bottom: 7px solid #E3E3E3;
+}
+
+
+/*-------logo----------*/
+.logo {
+        margin-top: 51px;
+}
+
+.logo img {
+    margin-left: 24px;
+    margin-top: 19px;
+    margin-bottom: 20px;
+}
+
+
+/*-------menu-ber----------*/
+.menu-ber {
+
+}
+
+.menu-ber ul {
+    list-style: none;
+    margin-left: 107px;
+    margin-top: 93px;
+}
+
+.menu-ber ul li {
+    display: inline;
+    margin-left: 38px;
+    float: left;
+    padding-left: 29px;
+}
+
+.menu-ber ul li a {
+    color: #90aac6;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.menu-ber ul li a:hover {
+    color: black;
+}
+
+
+
+
+
+/*=================page css==================*/
+.page {
+	background-color: #F04838;
+}
+
+
+/*-------contant----------*/
+.contant {
+	position: relative;
+}
+
+.contant h1 {
+	margin-top: 50px;
+    margin-left: 81px;
+    margin-bottom: 63px;
+    color: white;
+}
+
+.contant img {
+	margin-left: 0px;
+    margin-bottom: 54px;
+    width: 750px;
+}
+
+.contant p {
+	width: 748px;
+	margin-left: 24px;
+	margin-bottom: 89px;
+	color: white;
+}
+
+
+
+/*-------contant-img---------*/
+.contant-img {
+
+}
+
+.black {
+	right: 108px;
+    position: absolute;
+    top: -410px;
+}
+
+.black img {
+	height: 235px;
+    width: 235px;
+}
+
+.white {
+    position: absolute;
+    top: -410px;
+    right: 20px;
+}
+
+.white img {
+	height: 235px;
+    width: 235px;
+}
+
+
+
+/*---------form-box-----------*/
+.form-box {
+
+}
+
+.form-input-box {
+	padding-left: 42px;
+	margin-bottom: 30px;
+}
+
+.form-input-box p {
+	text-transform: uppercase;
+	color: white;
+}
+
+.from-control {
+	height: 40px;
+	width: 347px;
+	padding: 2px 1px;
+	background-color: #FF6053;
+	border: none;
+}
+
+.form-btn-box {
+	margin-top: 91px;
+}
+
+.form-btn {
+	background-color: transparent;
+	font-size: 32px;
+	margin-left: 47px;
+	border: none;
+	color: white;
+}
+
+
+
+
+
+
+/*=================footer css==================*/
+.copy-right {
+    background-color: #ef4035;
+}
+
+.copy-right-contant h1 {
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================media queri=========================================*/
+@media (min-width: 0px) and (max-width: 640px) {
+
+
+
+
+/*=================header css==================*/
+.logo {
+        margin-top: 18px;
+}
+
+.logo img {
+    margin-left: 13px;
+    margin-top: 19px;
+    margin-bottom: 3px;
+    width: 300px;
+}
+
+.menu-ber {
+
+}
+
+.menu-ber ul {
+    margin-left: -49px;
+    margin-top: 20px;
+}
+    
+.menu-ber ul li {
+    margin-left: 9px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/*=================page css==================*/
+
+
+/*-------contant----------*/
+.contant h1 {
+    margin-left: 0px;
+}
+
+.contant img {
+    /* margin-left: 0px; */
+    margin-bottom: 60px;
+    width: 333px;
+}
+
+.contant p {
+    width: unset;
+    margin-left: 0px;
+}
+
+
+/*-------contant-img---------*/
+.black img {
+    display: none;
+}
+
+
+.white img {
+    display: none;
+}
+
+
+
+
+
+/*---------form-box-----------*/
+.form-input-box {
+    padding-left: 15px;
+}
+
+.from-control {
+    width: 325px;
+}
+
+
+
+/*---------form-btn-box----------*/
+.form-btn-box {
+    margin: 0 0 55px 0;
+}
+
+
+.form-btn {
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*======================================media queri=========================================*/
+@media (min-width: 641px) and (max-width: 1024px) {
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================header css==================*/
+.logo {
+    margin-top: 50px;
+}
+
+.logo img {
+    margin: 0 0 20px 0;
+    width: 312px;
+}
+
+.menu-ber {
+
+}
+
+.menu-ber ul {
+    margin-left: 40px;
+    margin-top: 68px;
+}
+    
+.menu-ber ul li {
+    display: inline;
+    margin-left: 0px;
+    float: left;
+    padding-left: 18px;
+}
+
+
+
+
+
+/*=================page css==================*/
+
+
+/*-------contant----------*/
+.contant {
+    position: unset;
+}
+
+.contant h1 {
+    margin: 50px 0 63px 0;
+}
+
+
+.contant img {
+    width: 700px;
+}
+
+.contant p {
+    width: unset;
+    margin-left: 0px;
+}
+
+
+/*-------contant-img---------*/
+.black img {
+    display: none;
+}
+
+
+.white img {
+    display: none;
+}
+
+
+
+
+
+/*---------form-box-----------*/
+.form-input-box {
+    padding-left: 0px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.form-input-box p {
+    margin-left: -25px;
+}
+
+.from-control {
+    margin-left: -28px;
+    width: 420px;
+}
+
+
+/*---------form-btn-box----------*/
+.form-btn-box {
+    margin-top: 195px;
+}
+
+
+.form-btn {
+    margin-left: 10px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

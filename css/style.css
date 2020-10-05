@@ -1,0 +1,540 @@
+
+/*=================Header css==================*/
+.main {
+    background-image: url(../img/background.png);
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    height: 805px;
+}
+
+/*-------logo----------*/
+.logo {
+	    margin-top: 51px;
+}
+
+.logo h1 {
+    font-size: 50px;
+    font-family: cursive;
+    color: #fafd17;
+}
+
+
+
+/*-------menu-ber----------*/
+.menu-ber {
+
+}
+
+.menu-ber ul {
+    list-style: none;
+    margin-left: 101px;
+    margin-top: 72px;
+}
+
+.menu-ber ul li {
+    display: inline;
+    margin-left: 47px;
+    float: left;
+}
+.menu-ber ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.menu-ber ul li a:hover {
+    color: black;
+}
+
+
+
+/*-------had----------*/
+.had {
+    float: right;
+    margin: 146px 0 0 0;
+}
+
+.had h1 {
+    color: white;
+    background-color: #00000085;
+    width: 489px;
+    padding: 15px 60px 15px 60px;
+    font-size: 39px;
+}
+
+
+
+.had p {
+    width: 490px;
+    font-size: 13px;
+    margin: 30px 0 0 0;
+    color: white;
+}
+
+
+
+hr {
+    width: 20px;
+    margin: 80px 0 50px 0;
+    border: 1px solid #f6f6fc;
+}
+
+
+.had a {
+    border: 2px solid;
+    border-color: white;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+
+.had a:hover {
+    color: black;
+}
+
+
+
+/*=================service css==================*/
+.service {
+    background-color: #f6f6f6;
+    position: relative;
+}
+
+
+.hov {
+
+}
+
+/*-------title---------*/
+.title {
+
+}
+
+.title h1 {
+    margin: 200px 0 0 0;
+    font-size: 40px;
+}
+
+
+.border {
+    width: 20px;
+    margin: 40px 0 60px 0;
+    border: 1px solid #959597 !important;
+}
+
+
+.title p {
+    width: 364px;
+    font-size: 15px;
+    margin: 0 0 110px 0;
+}
+
+/*-------position----------*/
+.pos {
+
+}
+
+.efect {
+    position: absolute;
+    width: 993px;
+    height: 549px;
+    top: 145px;
+    right: -205px;
+}
+
+
+.car2 {
+    position: absolute;
+    top: 220px;
+    right: -36px;
+}
+
+
+
+
+/*=================case css==================*/
+.case {
+    background-color: #28282e;
+    height: 590px;
+}
+
+.hop {
+
+}
+
+/*-------title-two---------*/
+.title-two {
+
+}
+
+.title-two h1 {
+    margin: 130px 0 0 0;
+    color: white;
+    font-size: 40px;
+}
+
+.border-two {
+    width: 20px;
+    margin: 20px 0 60px 0;
+    border: 1px solid #fefeff !important;
+}
+
+.title-two p {
+    width: 364px;
+    color: white;
+    font-size: 15px;
+    margin: 0 0 75px 0;
+}
+
+.title-two a {
+    border: 2px solid;
+    border-color: white;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.title-two a:hover {
+    color: #6a7a79;
+}
+
+
+
+
+/*-------title-two---------*/
+.moo {
+
+}
+
+.moo img {
+    margin: 232px 0 0 0;
+    width: 766px;
+}
+
+
+
+/*=================footer css==================*/
+.copy-right {
+    background-color: #ef4035;
+}
+
+.copy-right-contant h1 {
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================media qurie==================================*/
+@media(min-width: 0px) and (max-width: 540px){
+
+    /*=================Header css==================*/
+    /*-------logo----------*/
+    .logo {
+        margin-top: 30px;
+    }
+
+    .logo h1 {
+        font-size: 32px;
+        font-family: cursive;
+        color: #fafd17;
+    }
+
+    /*-------menu-ber----------*/
+    .menu-ber ul {
+        margin-left: -41px;
+        margin-top: 24px;
+    }
+
+
+
+    .menu-ber ul li {
+        margin-left: 20px;
+        float: none;
+    }
+
+
+    .menu-ber ul li a {
+        font-size: 19px;
+        
+    }
+
+    /*-------had----------*/
+    .had h1 {
+        width: 285px;
+        padding: 15px 5px 15px 5px;
+        font-size: 29px;
+    }
+
+    .had p {
+        width: 274px;
+    }
+
+    hr {
+        margin: 44px 0 50px 0;
+    }
+
+
+
+    /*=================service css==================*/
+    .service {
+        position: unset;
+    }
+
+    /*-------title---------*/
+    .title h1 {
+        margin: 70px 0 0 0;
+        font-size: 30px;
+    }
+
+    .title p {
+        width: unset;
+        font-size: 15px;
+        margin: 0 0 110px 0;
+    }
+
+    /*-------position----------*/
+    .efect {
+        display: none;
+        position: unset;
+    }
+
+
+    /*=================case css==================*/
+    .case {
+        background-color: #28282e;
+        height: 661px;
+    }
+
+
+    /*-------title-two---------*/
+    .title-two h1 {
+        margin: 87px 0 0 0;
+        font-size: 30px;
+    }
+
+    .title-two p {
+        width: 324px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================media qurie==================================*/
+@media(min-width: 0px) and (max-width: 360px){
+    .car2 {
+        position: unset;
+        width: 291px;
+        margin-bottom: 102px;
+        margin-left: 11px;
+    }
+
+
+    .moo img {
+        margin: 75px 0 0 0;
+        width: 327px;
+    }
+
+
+}
+
+
+
+/*===================================media qurie==================================*/
+@media(min-width: 361px) and (max-width: 411px){
+    .car2 {
+        position: unset;
+        width: 332px;
+        margin-bottom: 102px;
+        margin-left: 9px;
+    }
+
+    .moo img {
+        margin: 75px 0 0 0;
+        width: 385px;
+    }
+
+
+
+}
+
+
+
+
+/*===================================media qurie==================================*/
+@media(min-width: 412px) and (max-width: 540px){
+    .car2 {
+        position: unset;
+        width: 407px;
+        margin-bottom: 102px;
+        margin-left: 44px;
+    }
+
+    .moo img {
+        margin: 75px 0 0 0;
+        width: 498px;
+    }
+
+
+
+}
+
+
+
+/*======================================media queri=========================================*/
+@media(min-width: 540px) and (max-width: 1024px){
+
+
+
+    /*=================Header css==================*/
+    /*-------logo----------*/
+    .logo {
+        
+    }
+
+    .logo h1 {
+        font-size: 47px;
+        font-family: cursive;
+        color: #fafd17;
+    }
+
+    /*-------menu-ber----------*/
+    .menu-ber ul {
+        margin: 65px 0 0px 0;
+    }
+
+
+    .menu-ber ul li {
+        margin-left: 30px;
+    }
+
+
+    .menu-ber ul li a {
+           
+    }
+
+    /*-------had----------*/
+    .had h1 {
+        
+    }
+
+    .had p {
+        
+    }
+
+
+    hr {
+        
+    }
+
+
+    /*=================service css==================*/
+    .service {
+        height: 918px;
+    }
+
+
+    /*-------title---------*/
+    .title h1 {
+        margin: 95px 0 0 0;
+        width: 445px;
+    }
+
+    .title p {
+        width: 470px;
+        font-size: 18px;
+        margin: 0 0 0 0;
+    }
+
+
+    /*-------position----------*/
+    .efect {
+        position: absolute;
+        width: 700px;
+        height: 355px;
+        top: 510px;
+        right: 200px;
+    }
+
+    .car2 {
+        position: absolute;
+        top: 526px;
+        right: 153px;
+    }
+
+    /*=================case css==================*/
+    .case {
+        height: 780px;
+        position: relative;
+    }
+
+
+    /*-------title-two---------*/
+    .title-two h1 {
+        margin: 95px 0 0 0;
+       width: 440px;
+    }
+
+    .title-two p {
+        width: 470px;
+        font-size: 18px;
+        margin: 0 0 75px 0;
+    }
+
+
+    /*-------moo---------*/
+    .moo {
+        position: absolute;
+    }
+
+    .moo img {
+        margin: 560px 0 0 0;
+        width: 925px;
+    }
+
+
+
+
+
+}
